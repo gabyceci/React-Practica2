@@ -15,7 +15,7 @@ const Form = () => {
 </div>
 <br />
 <Boton
-    titulo={'Ingresar'}/>
+    titulo={'Calcular'}/>
 </div>
       </>
     );

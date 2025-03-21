@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import About from './components/about'
 import Form from './components/form1'
-import Boton from './components/Boton'
 
 function App() {
   const [count, setCount] = useState(0)
