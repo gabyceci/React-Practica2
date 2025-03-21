@@ -4,7 +4,11 @@ const About = ({nombre, sobreMi}) => {
     return (
       <>
         <div type="card" className="about"> 
-          <img src="https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png" class="card-img-top" alt="..." />
+          <img src="https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png" 
+          class="card-img-top" 
+          alt="..." 
+          className="imagen"/>
+        
           <div class="card-body">
           <br />
 
