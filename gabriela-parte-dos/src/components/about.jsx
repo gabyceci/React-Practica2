@@ -1,4 +1,6 @@
-const About = () => {
+import "./about.css"
+
+const About = ({nombre, sobreMi}) => {
     return (
       <>
         <div type="card" className="about"> 
@@ -6,20 +8,9 @@ const About = () => {
           <div class="card-body">
           <br />
 
-            <h5 class="card-title">Gabriela Arévalo</h5>
+            <h5 class="card-title">{nombre}</h5>
             <br />
-            <p>
-      Soy una apasionada <strong>desarrolladora de software</strong> con experiencia
-      en la creación de <strong>aplicaciones móviles</strong> y <strong
-        >sitios web</strong
-      >. Me destaco por mi capacidad de adaptación a diferentes áreas del
-      desarrollo, incluyendo <strong>backend</strong>, <strong>diseño</strong> y
-      <strong>sistemas de escritorio</strong>. Mi enfoque <strong
-        >ordenado</strong
-      > y <strong>responsable</strong> me permite afrontar nuevos retos con eficiencia
-      y creatividad.
-    </p>
-
+            <p>{sobreMi}</p>
             
           </div>
         </div>
